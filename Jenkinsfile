@@ -11,5 +11,6 @@ pipeline {
             steps {
                 sh 'npx playwright test'
             }       
+        }
     }
 }
